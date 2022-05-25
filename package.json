@@ -1,0 +1,37 @@
+{
+  "name": "foof",
+  "version": "1.0.0",
+  "description": "a web socket implmentation",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "eslint lib test && nyc -r=text -r=lcov mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirudhsuresh/foof.git"
+  },
+  "author": "Anirudh",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/anirudhsuresh/foof/issues"
+  },
+  "homepage": "https://github.com/anirudhsuresh/foof#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "ws": "^8.6.0"
+  },
+  "dependencies": {
+    "@drom/eslint-config": "^0.10.0",
+    "drom": "^0.4.0",
+    "nyc": "^15.1.0",
+    "ws": "^8.6.0"
+  },
+  "eslintConfig": {
+    "extends": "@drom/eslint-config/eslint4/node8"
+  }
+}
