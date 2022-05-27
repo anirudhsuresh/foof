@@ -1,7 +1,7 @@
 {
   "name": "foof",
   "version": "1.0.0",
-  "description": "a web socket implmentation",
+  "description": "a web socket implementation",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib",
@@ -21,14 +21,16 @@
   },
   "homepage": "https://github.com/anirudhsuresh/foof#readme",
   "devDependencies": {
+    "@drom/eslint-config": "^0.10.0",
     "chai": "^4.3.6",
+    "eslint": "^8.14.0",
     "mocha": "^10.0.0",
+    "node-fetch": "^2",
+    "nyc": "^15.1.0",
     "ws": "^8.6.0"
   },
   "dependencies": {
-    "@drom/eslint-config": "^0.10.0",
-    "drom": "^0.4.0",
-    "nyc": "^15.1.0",
+    "eslint": "^8.14.0",
     "ws": "^8.6.0"
   },
   "eslintConfig": {
