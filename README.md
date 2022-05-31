@@ -1,3 +1,3 @@
-A wrapper implementation for web socket using JS node js 
+A wrapper implementation of node js web socket
 
 ![](foof.png)
